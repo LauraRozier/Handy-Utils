@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="OutlookFix.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="25"/>
+        <CursorPos X="25" Y="49"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\packages\fcl-registry\src\registry.pp"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="279"/>
+        <CursorPos X="54" Y="92"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\packages\fcl-registry\src\regdef.inc"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="3" Y="30"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="442"/>
+        <CursorPos X="20" Y="501"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="50" Column="35" TopLine="16"/>
+      </Position1>
+      <Position2>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="60" TopLine="36"/>
+      </Position2>
+      <Position3>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="96" Column="21" TopLine="77"/>
+      </Position3>
+      <Position4>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="30" Column="3" TopLine="7"/>
+      </Position4>
+      <Position5>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="96" Column="30" TopLine="68"/>
+      </Position5>
+      <Position6>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="31" Column="25" TopLine="30"/>
+      </Position6>
+      <Position7>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="67" Column="19" TopLine="44"/>
+      </Position7>
+      <Position8>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="9" Column="41"/>
+      </Position8>
+      <Position9>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="208" Column="11" TopLine="189"/>
+      </Position9>
+      <Position10>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="11" Column="3"/>
+      </Position10>
+      <Position11>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="222" TopLine="191"/>
+      </Position11>
+      <Position12>
+        <Filename Value="OutlookFix.lpr"/>
+        <Caret Line="218" Column="59" TopLine="137"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
