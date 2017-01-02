@@ -1,7 +1,9 @@
 # Handy-Utils
-Stuff that could proove to be handy in practical situations  
+Stuff that could proove to be handy in practical situations
+
 ---------------------------------------
-The utils in this repo are mainly written in ObjectPascal (Using Lazarus) :godmode:  
+The utils in this repo are mainly written in ObjectPascal (Using Lazarus) :godmode:
+
 ---------------------------------------
 
 This repo contains:  
