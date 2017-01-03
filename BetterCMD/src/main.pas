@@ -228,7 +228,7 @@ begin
   memoCommand.Lines.Add('');
   memoCommand.Lines.Add('(c) 2016 - Thimo Braker');
   memoCommand.Lines.Add('');
-  memoCommand.Lines.Add('The following commands are native to PDC:');
+  memoCommand.Lines.Add('The following commands are native to BCMD:');
   memoCommand.Lines.Add('');
   memoCommand.Lines.Add('CLR - Clear the memo');
   memoCommand.Lines.Add('LS - Alias for DIR');
@@ -268,7 +268,7 @@ begin
     begin
       Left    := 20;
       Top     := 30 + (32 * I);
-      Width   := 120;
+      Width   := 240;
       Height  := 30;
       Name    := Settings.Buttons[I].Name;
       Caption := Settings.Buttons[I].Caption;
