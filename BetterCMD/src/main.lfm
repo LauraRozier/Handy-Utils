@@ -24,7 +24,7 @@ object MainForm: TMainForm
       ClientWidth = 792
       object memoCommand: TMemo
         Left = 0
-        Height = 549
+        Height = 545
         Top = 0
         Width = 792
         Align = alClient
@@ -40,8 +40,8 @@ object MainForm: TMainForm
       end
       object cbCommand: TComboBox
         Left = 0
-        Height = 23
-        Top = 549
+        Height = 27
+        Top = 545
         Width = 792
         Align = alBottom
         AutoComplete = True

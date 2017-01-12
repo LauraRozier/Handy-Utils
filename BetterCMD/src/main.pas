@@ -22,7 +22,7 @@ type
   TButtonRecord = record
     Name:    string[255];
     Caption: string[255];
-    Action:  string[255];
+    Action:  array[0..32767] of Char;
   end;
 
   TButtonRecordArray = array[0..254] of TButtonRecord;
