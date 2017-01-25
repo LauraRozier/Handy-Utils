@@ -1,13 +1,15 @@
 object MainForm: TMainForm
-  Left = -1254
+  Left = -1081
   Height = 600
-  Top = 82
+  Top = 160
   Width = 800
   Caption = 'Better CMD'
   ClientHeight = 600
   ClientWidth = 800
   OnCreate = FormCreate
   OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  Position = poDefault
   LCLVersion = '1.6.0.4'
   object pcMain: TPageControl
     Left = 0
@@ -32,6 +34,7 @@ object MainForm: TMainForm
         Color = clBackground
         Font.Color = clSilver
         Font.Name = 'Consolas'
+        OnKeyDown = FormKeyDown
         ParentFont = False
         ReadOnly = True
         ScrollBars = ssVertical
@@ -50,6 +53,7 @@ object MainForm: TMainForm
         Font.Color = clSilver
         Font.Name = 'Consolas'
         ItemHeight = 19
+        OnKeyDown = FormKeyDown
         OnKeyUp = cbCommandKeyUp
         ParentFont = False
         TabOrder = 0

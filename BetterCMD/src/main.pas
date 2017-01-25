@@ -46,6 +46,7 @@ type
     procedure cbCommandKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormDestroy(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure miAddBtnClick(Sender: TObject);
     procedure miDeleteBtnClick(Sender: TObject);
   private
@@ -239,6 +240,18 @@ begin
 
   if FileExists('.\.bcmd_history') then
      cbCommand.Items.LoadFromFile('.\.bcmd_history');
+end;
+
+procedure TMainForm.FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+begin
+  if (Key = Ord('C')) and (ssCtrl in Shift) then
+  begin
+    GenerateConsoleCtrlEvent(CTRL_BREAK_EVENT, ProcessInfo.dwProcessId);
+    GenerateConsoleCtrlEvent(CTRL_C_EVENT, ProcessInfo.dwProcessId);
+    //PostMessage(ProcessInfo.hProcess, WM_CLOSE, 0, 0);
+  end;
+
+  inherited;
 end;
 
 procedure TMainForm.SaveSettings;
